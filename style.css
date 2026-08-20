@@ -1,0 +1,12 @@
+/* Color del icono cuando NO está seleccionado (Gris) */
+.nav-tabs-custom .nav-link {
+  color: #a8a8a8;
+  background-color: transparent !important;
+  border: none;
+}
+
+/* Color del icono cuando SÍ está seleccionado (Azul) */
+.nav-tabs-custom .nav-link.active {
+  color: #0d6efd !important; /* Azul de Bootstrap */
+  background-color: transparent !important;
+}
